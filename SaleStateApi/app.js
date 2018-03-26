@@ -457,8 +457,8 @@ app.get("/", function(req, res){
 });
 
 app.get("/salestate", function(req, res) {
-  crowdsaleContract.methods.amountRaised().call()
   // crowdsaleContract.methods.startTime().call()
+	crowdsaleContract.methods.amountRaised().call()
   .then(function(result) {
     res.send(result);
   });
@@ -466,4 +466,4 @@ app.get("/salestate", function(req, res) {
   // res.send("hahah");
 });
 
-server.listen(8000);
+server.listen(6666);

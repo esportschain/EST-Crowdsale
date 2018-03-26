@@ -4,6 +4,7 @@
 3. web3
 4. express
 5. bignumber.js
+6. forever
 
 ## Build
 0. First `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash`
